@@ -46,12 +46,15 @@ public class UserController {
      * @ResponseBody 注解的作用是将目标类型数据转换成json格式
      * 另外页面需要加入jquery js
      */
+	
 	/*@RequestMapping(value = "/list")
 	public @ResponseBody List<User> list(){
 		List<User> userList = userService.findAll();
 		return userList;
 	}
 	*/
+	
+	
 	
 	/**
      * 跳转到添加信息视图

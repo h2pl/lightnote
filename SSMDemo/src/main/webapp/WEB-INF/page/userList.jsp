@@ -13,7 +13,7 @@
 <!-- 下面JS为页面初始化异步加载数据，
 如果采用easyui ,那么返回的data数据就可以直接绑定到表格上，
 下面才的的拼接方式上无任何框架的方式 -->
-<!-- <script type="text/javascript">
+<!--<script type="text/javascript">
 $(function(){
 	$.ajax({
 		type: "GET",
@@ -36,7 +36,8 @@ $(function(){
 	});
 });
 
-</script> -->
+</script>
+-->
 </head>
 <body>
 	<table id="tab">
@@ -48,7 +49,7 @@ $(function(){
   			<th>功能</th>
   		</tr>
   		 
-  		<%-- <c:forEach items="${userList}"  var="user">
+ 	 <c:forEach items="${userList}"  var="user">
      	<tr>
   			<td>${user.id}</td>
   			<td>${user.username}</td>
@@ -56,7 +57,8 @@ $(function(){
   			<td>${user.email}</td>
   			<td><a href="${ctx}/user/addLoad">增加</a> <a href="${ctx}/user/editLoad?id=${user.id}">修改</a>   <a href="${ctx}/user/delete?id=${user.id}">删除</a> </td>
   		</tr>
-     </c:forEach> --%>
+     </c:forEach> 
+
   	</table>
     
 	
